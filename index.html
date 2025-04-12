@@ -1,14 +1,32 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Matt's Simple Weather App</title>
-    <script type="module" crossorigin src="/assets/index-Dk6Czh69.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CV3ZkGFW.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shan Rose Wedding Hotel Redirect</title>
+</head>
+<body>
+    You should be rediected shortly... <br/> <br/>
+
+    If not, click on one of the following links: <br/> <br/>
+
+    <a href="https://www.hilton.com/en/book/reservation/deeplink/?ctyhocn=GRRMAES&groupCode=CESRSW&arrivaldate=2025-06-28&departuredate=2025-06-30&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT">Embassy Suites</a> <br/>
+    <a href="https://www.choicehotels.com/reservations/groups/EQ78B6">Country Inn</a> <br/>
+    <a href="https://www.hilton.com/en/book/reservation/deeplink/?ctyhocn=GRRDTHX&corporateCode=0560061264&arrivalDate=2025-06-28&departureDate=2025-06-30">Hampton</a> <br/>
+    <script>
+        // Extract query string parameters
+        const queryParams = new URLSearchParams(window.location.search);
+
+        // Check for a specific parameter (e.g., 'target')
+        const target = queryParams.get('target');
+
+        // Redirect if the parameter is present
+        if (target === "embassy") {
+            window.location.href = "https://www.hilton.com/en/book/reservation/deeplink/?ctyhocn=GRRMAES&groupCode=CESRSW&arrivaldate=2025-06-28&departuredate=2025-06-30&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT";
+        } 
+
+        if (target === "hampton") {
+            window.location.href = "https://www.hilton.com/en/book/reservation/deeplink/?ctyhocn=GRRDTHX&corporateCode=0560061264&arrivalDate=2025-06-28&departureDate=2025-06-30";
+        }
+        
+    </script>
+</body>
 </html>
